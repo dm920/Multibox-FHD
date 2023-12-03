@@ -3167,45 +3167,45 @@ self['config'].l.setSeperation(int(300*f))
     <panel name="template_tuner_info"/>
     <!-- <panel name="template_weather"/>-->
     <panel name="template_pig_setup"/>
-    <widget noWrap="1" backgroundColor="background20" foregroundColor="green" font="Regular; 27" render="Label" position="610,18" size="90,30" source="session.OAWeather" transparent="1" zPosition="8" halign="center">
-      <convert type="OAWeather">temperature_current</convert>
+    <widget noWrap="1" backgroundColor="background20" foregroundColor="green" font="Regular; 27" render="Label" position="610,18" size="90,30" source="session.MSNWeather" transparent="1" zPosition="8" halign="center">
+      <convert type="MSNWeather">temperature_current</convert>
     </widget>
-    <widget Wrap="1" backgroundColor="background" font="Regular; 24" foregroundColor="white" render="Label" position="544,51" size="290,30" source="session.OAWeather" halign="center" transparent="1" zPosition="8" valign="top">
-      <convert type="OAWeather">temperature_text,current</convert>
+    <widget Wrap="1" backgroundColor="background" font="Regular; 24" foregroundColor="white" render="Label" position="544,51" size="290,30" source="session.MSNWeather" halign="center" transparent="1" zPosition="8" valign="top">
+      <convert type="MSNWeather">temperature_text,current</convert>
     </widget>
-    <widget alphatest="blend" render="OAWeatherPixmap" position="467,6" size="75,75" source="session.OAWeather" transparent="1" zPosition="5">
-      <convert type="OAWeather">weathericon,current,/usr/share/enigma2/Multibox/Wettericons/,png</convert>
+    <widget alphatest="blend" render="MSNWeatherPixmap" position="467,6" size="75,75" source="session.MSNWeather" transparent="1" zPosition="5">
+      <convert type="MSNWeather">weathericon,current,/usr/share/enigma2/Multibox/Wettericons/,png</convert>
     </widget>
-    <widget alphatest="blend" render="OAWeatherPixmap" position="836,6" size="75,75" source="session.OAWeather" transparent="1" zPosition="5">
-      <convert type="OAWeather">weathericon,day2,/usr/share/enigma2/Multibox/Wettericons/,png</convert>
+    <widget alphatest="blend" render="MSNWeatherPixmap" position="836,6" size="75,75" source="session.MSNWeather" transparent="1" zPosition="5">
+      <convert type="MSNWeather">weathericon,day2,/usr/share/enigma2/Multibox/Wettericons/,png</convert>
     </widget>
-    <widget backgroundColor="background" font="Regular; 27" foregroundColor="default" render="Label" position="935,18" size="45,30" source="session.OAWeather" zPosition="3" halign="center" transparent="1" noWrap="1">
-      <convert type="OAWeather">weekshortday,day2</convert>
+    <widget backgroundColor="background" font="Regular; 27" foregroundColor="default" render="Label" position="935,18" size="45,30" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" noWrap="1">
+      <convert type="MSNWeather">weekshortday,day2</convert>
     </widget>
-    <widget backgroundColor="background" font="Regular; 27" foregroundColor="bernstein" render="Label" position="978,18" size="150,30" source="session.OAWeather" zPosition="3" halign="center" transparent="1" noWrap="1">
-      <convert type="OAWeather">temperature_heigh_low,day2</convert>
+    <widget backgroundColor="background" font="Regular; 27" foregroundColor="bernstein" render="Label" position="978,18" size="150,30" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_heigh_low,day2</convert>
     </widget>
-    <widget Wrap="1" backgroundColor="background" font="Regular; 24" foregroundColor="white" render="Label" position="913,51" size="240,30" source="session.OAWeather" halign="center" transparent="1" zPosition="8" valign="top">
-      <convert type="OAWeather">temperature_text,day2</convert>
+    <widget Wrap="1" backgroundColor="background" font="Regular; 24" foregroundColor="white" render="Label" position="913,51" size="240,30" source="session.MSNWeather" halign="center" transparent="1" zPosition="8" valign="top">
+      <convert type="MSNWeather">temperature_text,day2</convert>
     </widget>
-    <widget alphatest="blend" render="OAWeatherPixmap" position="1155,6" size="75,75" source="session.OAWeather" transparent="1" zPosition="5">
-      <convert type="OAWeather">weathericon,day3,/usr/share/enigma2/Multibox/Wettericons/,png</convert>
+    <widget alphatest="blend" render="MSNWeatherPixmap" position="1155,6" size="75,75" source="session.MSNWeather" transparent="1" zPosition="5">
+      <convert type="MSNWeather">weathericon,day3,/usr/share/enigma2/Multibox/Wettericons/,png</convert>
     </widget>
-    <widget backgroundColor="background" font="Regular; 27" foregroundColor="bernstein" render="Label" position="1295,18" size="150,30" source="session.OAWeather" zPosition="3" halign="center" transparent="1" noWrap="1">
-      <convert type="OAWeather">temperature_heigh_low,day3</convert>
+    <widget backgroundColor="background" font="Regular; 27" foregroundColor="bernstein" render="Label" position="1295,18" size="150,30" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_heigh_low,day3</convert>
     </widget>
-    <widget Wrap="1" backgroundColor="background" font="Regular; 24" foregroundColor="white" render="Label" position="1232,51" size="240,30" source="session.OAWeather" halign="center" transparent="1" zPosition="8" valign="top">
-      <convert type="OAWeather">temperature_text,day3</convert>
+    <widget Wrap="1" backgroundColor="background" font="Regular; 24" foregroundColor="white" render="Label" position="1232,51" size="240,30" source="session.MSNWeather" halign="center" transparent="1" zPosition="8" valign="top">
+      <convert type="MSNWeather">temperature_text,day3</convert>
     </widget>
-    <widget backgroundColor="background" font="Regular; 27" foregroundColor="default" render="Label" position="1250,18" size="45,30" source="session.OAWeather" zPosition="3" halign="center" transparent="1" noWrap="1">
-      <convert type="OAWeather">weekshortday,day3</convert>
+    <widget backgroundColor="background" font="Regular; 27" foregroundColor="default" render="Label" position="1250,18" size="45,30" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" noWrap="1">
+      <convert type="MSNWeather">weekshortday,day3</convert>
     </widget>
     <eLabel text="Status:" position="230,51" size="100,30" zPosition="8" halign="left" font="Regular; 24" backgroundColor="background" transparent="1"/>
-    <widget Wrap="1" backgroundColor="background" font="Regular; 24" foregroundColor="green" render="Label" position="185,15" size="285,30" source="session.OAWeather" zPosition="3" halign="center" transparent="1" valign="center">
-      <convert type="OAWeather">city</convert>
+    <widget Wrap="1" backgroundColor="background" font="Regular; 24" foregroundColor="green" render="Label" position="185,15" size="285,30" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" valign="center">
+      <convert type="MSNWeather">city</convert>
     </widget>
-    <widget render="Label" noWrap="1" source="session.OAWeather" position="306,51" zPosition="8" size="75,30" font="Regular; 24" transparent="1" halign="right" backgroundColor="background">
-      <convert type="OAWeather">observationtime</convert>
+    <widget render="Label" noWrap="1" source="session.MSNWeather" position="306,51" zPosition="8" size="75,30" font="Regular; 24" transparent="1" halign="right" backgroundColor="background">
+      <convert type="MSNWeather">observationtime</convert>
     </widget>
     <eLabel name="" position="0,0" size="1920,88" backgroundColor="background" zPosition="-1"/>
     <eLabel name="" position="1,91" size="1920,2" backgroundColor="Line"/>
